@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+
+Sitemap: https://masheshaflavorhaven.co.za/sitemap.xml
