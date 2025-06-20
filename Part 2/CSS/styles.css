@@ -502,3 +502,13 @@ html {
     color: #721c24;
     border: 1px solid #f5c6cb;
 }
+.button{
+ background-color: #721c24;
+ transition: all 0.3s ease;
+}
+.button:hover{
+    background-color: #155724;
+    transform: scale(1.05);
+}
+
+
