@@ -5,7 +5,7 @@ function setupAboutPage() {
     teamMembers.forEach((member, index) => {
         const bio = member.nextElementSibling;
         if (bio) {
-            // Initially hide all bios except first
+            
             if (index !== 0) {
                 bio.style.display = 'none';
             }

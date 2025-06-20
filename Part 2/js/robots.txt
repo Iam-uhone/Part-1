@@ -1,5 +1,16 @@
 User-agent: *
+*Allowed pages for index*
+
+
 Allow: /
+Allow: Index.html
+Allow: contact.html
+Allow: enquiry.html
+Allow: about.html
+Allow: services.html
+
+*Disallowed pages for index*
+
 Disallow: /private/
 Disallow: /admin/
 Disallow: /tmp/
