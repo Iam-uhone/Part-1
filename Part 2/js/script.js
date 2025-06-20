@@ -353,7 +353,7 @@ function loadEvents() {
         eventsContainer.appendChild(eventElement);
     });
     
-    // Add event listeners to RSVP buttons
+    // event listeners to RSVP buttons
     document.querySelectorAll('.rsvp-btn').forEach(btn => {
         btn.addEventListener('click', function() {
             const eventTitle = this.closest('.event-card').querySelector('h3').textContent;
@@ -368,7 +368,7 @@ function formatDate(dateString) {
 }
 
 function loadGoogleReviews() {
-    // In a real implementation, you would use the Google My Business API
+    
     // This is a placeholder that simulates fetching reviews
     const reviews = [
         { author: "Sarah M.", rating: 5, text: "The tripe here is amazing! Authentic flavors and great service." },
@@ -426,7 +426,7 @@ window.addEventListener('load', function())
           
 </script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Set minimum date for event date picker to today
+    
     const today = new Date().toISOString().split('T')[0];
     document.getElementById('eventDate').min = today;
 
